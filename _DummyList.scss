@@ -1,0 +1,29 @@
+.DummyList {
+  color: black;
+  position: absolute;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0 !important;
+  background: #fff;
+  border: 1px solid #ddd !important;
+  box-shadow: 10px 14px 19px -16px rgba(0,0,0,0.75);
+  z-index: 9999;
+}
+
+.DummyListItem {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  height: 22px;
+  padding: 1px 8px !important;
+  white-space: nowrap !important;
+
+  &--active,
+  &:hover {
+    background: #87cefa;
+  }
+  &:last-of-type {
+    border-bottom: 1px solid #ddd;
+  }
+}
