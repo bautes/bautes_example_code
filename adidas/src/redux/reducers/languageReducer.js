@@ -19,7 +19,6 @@ const initialState = {
 const languageReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_LANGUAGE:
-      console.log(action)
       return {
         lang: action.payload,
         permissions: permissions[action.payload] || state.permissions

@@ -2,15 +2,20 @@ import './_Header.scss'
 
 import React from 'react';
 import { Flag } from 'semantic-ui-react'
-import { useDispatch } from 'react-redux'
-import classnames from 'classnames'
+import { Link } from "react-router-dom";
+import { LANGUAGES } from '../../intl/i18n'
 
-const Header = props => {
-  const dispatch = useDispatch()
-  
-  return <header className="Header">{
-    ['uk', 'de'].map(l => <Link to={l}><Flag className={classnames({ 'disabled': null === l })} key={l} name={l} onClick={() => setLanguage(l)} /></Link>)
-  }</header>
+const Header = () => {
+   return (
+     <nav>
+       <ul>{LANGUAGES.map(l => (
+         <Link key={l} to={l}>
+           <Flag name={l} />
+         </Link>
+       ))
+       }</ul>
+     </nav >
+   )
 }
 
 export default Header
