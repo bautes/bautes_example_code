@@ -1,0 +1,52 @@
+{
+  "monthly": {
+    "2020-12-1": [
+      {
+        "hours": 3,
+        "description": "coding",
+        "project": "foo bar"
+      },
+      {
+        "hours": 2,
+        "description": "unit testing",
+        "project": "foo bar"
+      }
+    ],
+    "2020-12-2": [
+      {
+        "hours": 2,
+        "description": "coding again",
+        "project": "foo bar"
+      },
+      {
+        "hours": 4,
+        "description": "unit testing",
+        "project": "foo bar"
+      }
+    ],
+    "2020-12-10": [
+      {
+        "hours": 6,
+        "description": "meeting testing super large text description",
+        "project": "foo bar"
+      },
+      {
+        "hours": 2,
+        "description": "unit testing super large text description",
+        "project": "foo bar"
+      }
+    ],
+    "2020-12-16": [
+      {
+        "hours": 2.5,
+        "description": "meeting",
+        "project": "foo bar"
+      },
+      {
+        "hours": 2,
+        "description": "unit testing",
+        "project": "foo bar"
+      }
+    ]
+  }
+}

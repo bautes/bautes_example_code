@@ -1,0 +1,6 @@
+export const ADD_ENTRY = 'ADD_ENTRY';
+export const DEL_ENTRY = 'DEL_ENTRY';
+export const UPD_ENTRY = 'UPD_ENTRY';
+
+export const TIMESHEET_REQUEST = 'TIMESHEET_REQUEST';
+export const TIMESHEET_RESPONSE = 'TIMESHEET_RESPONSE';
